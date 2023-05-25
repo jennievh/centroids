@@ -1,0 +1,34 @@
+Plan of Action
+
+Assumptions: non-self-intersecting polygon/vertices are in clockwise or counter-clockwise order
+no holes in polygons
+FUTURE add a test to make sure input is not self-intersecting
+
+IDEAS
+read in arcGIS ESRI format instead of flat text files
+
+TDD
+1. create empty class instance, ensure it's not null
+2. read in polygon vertices to a new instance, ensure not null
+3. get centroid, ensure it's not zero
+4. Make sure input vectors are the same length
+
+Inputs
+https://www.omnicalculator.com/math/centroid
+trapezoid 
+1,1
+2,4
+5,4
+11,1
+
+triangle
+0,0
+0,3
+3,3
+
+square
+1,1
+1,4
+4,4
+4,1
+
